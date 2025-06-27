@@ -90,7 +90,6 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE(' Transferred ₹' || p_amount || ' from Account ' || p_from_acc || ' to ' || p_to_acc);
 END;
 /
--- Enable DBMS output (ONLY if supported by your tool)
 SET SERVEROUTPUT ON;
 
 BEGIN
@@ -99,3 +98,4 @@ BEGIN
     TransferFunds(101, 104, 1000);
 END;
 /
+
